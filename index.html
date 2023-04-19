@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/style/master.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main id="main" class="col-12">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- start top main header -->
+
+          <header id="main_header">
+            <div class="container-xl h-100 m-0 p-0 mx-auto p-0">
+              <div class="row flex-wrap align-content-evenly h-100">
+                <div class="col-12">
+                  <!-- start top main header nav -->
+                  <div
+                    class="row mx-auto mt-4 text-uppercase fw-bold align-items-center justify-content-between"
+                  >
+                    <figure class="col-3 col-lg-2">
+                      <img
+                        src="assets/images/brand.png"
+                        class="col-12"
+                        alt=""
+                      />
+                    </figure>
+                    <!-- start mobile menu -->
+                    <div
+                      class="mobile_nav mt-sm-4 mt-md-0 col-7 d-block d-lg-none"
+                    >
+                      <div
+                        class="row align-items-center text-end justify-content-end"
+                      >
+                        <!-- start mobile nav -->
+                        <div class="col-5">
+                          <a
+                            class="btn btn-light bi bi-list"
+                            data-bs-toggle="offcanvas"
+                            href="#offcanvasExample"
+                            role="button"
+                            aria-controls="offcanvasExample"
+                          >
+                          </a>
+
+                          <div
+                            class="offcanvas bg-primary offcanvas-start"
+                            tabindex="-1"
+                            id="offcanvasExample"
+                            aria-labelledby="offcanvasExampleLabel"
+                          >
+                            <div class="offcanvas-header">
+                              <h5
+                                class="offcanvas-title"
+                                id="offcanvasExampleLabel"
+                              ></h5>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="offcanvas-body">
+                              <div class="col-12">
+                                <ul class="row p-0" id="top_header_mobile_nav">
+                                  <li class="col-12 py-3 rounded">
+                                    <a
+                                      href="#"
+                                      class="text-white h3 d-block col-12"
+                                      >home</a
+                                    >
+                                  </li>
+
+                                  <li class="col-12 py-3 rounded">
+                                    <a
+                                      href="#"
+                                      class="text-white h3 d-block col-12"
+                                      >about club
+                                    </a>
+                                  </li>
+
+                                  <li class="col-12 py-3 rounded">
+                                    <a
+                                      href="#"
+                                      class="text-white h3 col-12 d-block"
+                                      >team</a
+                                    >
+                                  </li>
+
+                                  <li class="col-12 py-3 rounded">
+                                    <a
+                                      href="#"
+                                      class="text-white h3 col-12 d-block"
+                                      >gallary</a
+                                    >
+                                  </li>
+
+                                  <li class="col-12 py-3 rounded">
+                                    <a
+                                      href="#"
+                                      class="text-white h3 col-12 d-block"
+                                      >league teame</a
+                                    >
+                                  </li>
+
+                                  <li class="col-12 py-3 rounded">
+                                    <a
+                                      href="#"
+                                      class="text-white h3 col-12 d-block"
+                                      >contacts</a
+                                    >
+                                  </li>
+
+                                  <li class="col-12 py-3 rounded">
+                                    <a
+                                      href="#"
+                                      class="text-white h3 col-12 d-block"
+                                      >about me</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- end mobile nav -->
+                        <!-- start social -->
+                        <div class="header_social col-7">
+                          <div class="row">
+                            <i class="col-3 mx-1 text-white bi bi-facebook"></i>
+                            <i class="col-3 mx-1 text-white bi bi-twitter"></i>
+                            <i
+                              class="col-3 mx-1 text-white bi bi-instagram"
+                            ></i>
+                          </div>
+                        </div>
+                        <!-- end social -->
+                      </div>
+                    </div>
+                    <!-- end mobile menu -->
+                    <!-- start descktop menu -->
+                    <div class="col-lg-7 d-lg-block d-none m-0 p-0">
+                      <ul id="menu_descktop" class="row px-0 py-5">
+                        <li class="col ms-4 p-0 rounded">
+                          <a href="#" class="text-white d-block col-12">home</a>
+                        </li>
+
+                        <li class="col p-0 rounded">
+                          <a href="#" class="text-white d-block col-12"
+                            >about club
+                          </a>
+                        </li>
+
+                        <li class="col ms-4 p-0 rounded">
+                          <a href="#" class="text-white col-12 d-block">team</a>
+                        </li>
+
+                        <li class="col p-0 rounded">
+                          <a href="#" class="text-white col-12 d-block"
+                            >gallary</a
+                          >
+                        </li>
+
+                        <li class="col -none d-lg-block p-0 rounded">
+                          <a href="#" class="text-white col-12 d-block"
+                            >league</a
+                          >
+                        </li>
+
+                        <li class="col -none d-lg-block p-0 rounded">
+                          <a href="#" class="text-white col-12 d-block"
+                            >contacts</a
+                          >
+                        </li>
+
+                        <li class="col d-none d-xl-block p-0 rounded">
+                          <a href="#" class="text-white col-12 d-block"
+                            >about me</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-3 d-none d-lg-block col-lg-2 mb-2">
+                      <div class="col-12">
+                        <div class="row">
+                          <i
+                            class="col-3 text-end mx-1 text-white bi bi-facebook"
+                          ></i>
+                          <i
+                            class="col-3 text-end mx-1 text-white bi bi-twitter"
+                          ></i>
+                          <i
+                            class="col-3 text-end mx-1 text-white bi bi-instagram"
+                          ></i>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end descktop menu -->
+                    <!-- end top main header nav -->
+                  </div>
+                  <!-- end top main header nav -->
+                </div>
+                <!-- start foot main header -->
+                <div
+                  class="foot_main_header ms-3 h-50 text-white col-11 justify-content-center justify-content-md-start"
+                >
+                  <h1
+                    class="col-12 w-75 mx-auto mx-sm-0 h1 display-1 text-white fw-bold"
+                  >
+                    LOOK UP, GET UP & NEVER GIVE UP
+                  </h1>
+                  <h4 class="mt-5 mx-sm-0 mx-auto w-75">
+                    Founded in 2010, Thunder is breathing life into the American
+                    basketball league.
+                  </h4>
+                  <div class="col-10 ms-3 mt-5">
+                    <div
+                      class="row justify-content-center justify-content-sm-start"
+                    >
+                      <a
+                        href="#"
+                        class="btn py-3 mb-2 mb-sm-0 text-white bg-red-700 me-sm-4 col-8 col-sm-4 col-lg-3 text-capitalize"
+                        >about our club</a
+                      >
+                      <a
+                        href="#"
+                        class="btn py-3 bg-transparent text-capitalize text-white border-3 col-sm-4 col-lg-3 col-8 border-white rounded"
+                        >macth resault</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- end foot main header -->
+              </div>
+            </div>
+          </header>
+          <!-- end top main header -->
+          <!-- start subscribe -->
+          <div id="subscribe">
+            <div class="container mx-auto h-100">
+              <div
+                class="row justify-content-center h-100 text-center text-lg-start align-content-around align-content-md-center align-items-md-center"
+              >
+                <h2
+                  class="col-12 display-md-6 col-md-9 col-lg-10 text-white display-5 fw-bold"
+                >
+                  Join us and get instant updates right to your inbox.
+                </h2>
+                <a
+                  href="#"
+                  class="btn text-white col-5 col-md-3 col-lg-2 py-3 text-uppercase mt-3 mt-sm-0 bg-transparent border border-3 border-white rounded"
+                  >subscribe</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--end  subscribe -->
+          <!-- start last match -->
+          <div id="last_macth">
+            <div class="row text-center pt-5 justify-content-center">
+              <div class="row justify-content-center">
+                <h2 class="mt-5">LAST MATCH RESULT</h2>
+                <span class="mt-4"></span>
+              </div>
+              <div class="col-12 my-md-5">
+                <div class="row justify-content-evenly align-items-center">
+                  <figure class="mt-5 mx-md-0 col-md-3 mt-md-0 col-lg-2">
+                    <img
+                      class="col-md-12"
+                      src="assets/images/newyork-thunder.png"
+                      alt=""
+                    />
+                  </figure>
+                  <div
+                    id="macth-point"
+                    class="row mt-md-0 mx-md-0 p-0 justify-content-center col-sm-4 mx-auto mt-5 col-6"
+                  >
+                    <span class="fw-bolder display-3 d-block col-lg-4 col-5"
+                      >122</span
+                    >
+                    <span
+                      class="fw-bold display-3 d-flex justify-content-center d-block col-2"
+                      ><span>-</span></span
+                    >
+                    <span class="fw-bold display-3 d-block col-3">97</span>
+                  </div>
+                  <figure class="mt-5 mt-md-0 mx-md-0 col-md-3 col-lg-2">
+                    <img
+                      class="col-md-12"
+                      src="assets/images/speacres.png"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
+              <a
+                href="#"
+                class="btn py-3 mt-md-0 mb-2 mb-sm-0 text-uppercase text-white bg-red-700 me-sm-4 col-6 col-sm-4 col-lg-3 mt-5"
+              >
+                match statistics
+              </a>
+            </div>
+          </div>
+          <!-- end last match -->
+          <!-- start next match -->
+          <div id="next_match">
+            <div class="container h-100 mx-auto">
+              <div class="row justify-content-center align-items-center h-100">
+                <div
+                  class="row text-center text-lg-start justify-content-center justify-content-between align-items-center"
+                >
+                  <h2
+                    class="col-12 col-lg-3 mb-5 mb-lg-0 fw-bolder text-white h1 text-uppercase"
+                  >
+                    next match
+                  </h2>
+                  <div class="col-12 col-lg-7 align-items-center mx-auto">
+                    <div
+                      class="row py-3 justify-content-center justify-content-lg-start align-items-center"
+                    >
+                      <figure
+                        class="col-12 text-center m-0 p-0 col-md-4 mt-5 mt-md-0"
+                      >
+                        <img
+                          class="col-md-8"
+                          src="assets/images/newyork-thunder.png"
+                        />
+                        <figcaption
+                          class="m-0 p-0 text-white h5 mt-3 text-uppercase"
+                        >
+                          newyork thunder
+                        </figcaption>
+                      </figure>
+                      <p
+                        class="fw-bolder display-3 mt-5 mt-md-0 text-white text-center h1 text-uppercase col-12 col-md-3"
+                      >
+                        vs
+                      </p>
+                      <figure
+                        class="col-12 text-center m-0 p-0 col-md-4 mt-5 mt-md-0"
+                      >
+                        <img
+                          class="col-md-10 mt-3"
+                          src="assets/images/tronto-rapters.png"
+                        />
+                        <figcaption
+                          class="m-0 p-0 text-white h5 mt-3 text-uppercase"
+                        >
+                          tronto rapters
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                  <a
+                    href="#"
+                    class="col-4 col-lg-2 mx-4 d-block fw-bold text-center py-4 rounded-2 mx-auto mx-lg-0 text-primary bg-white text-uppercase mt-5 mt-lg-0"
+                    >buy ticket</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end next match -->
+          <!-- start start coach -->
+          <div id="coach" class="d-flex align-items-end">
+            <div class="container">
+              <div
+                class="row justify-content-lg-between justify-content-center text-center text-lg-start"
+              >
+                <!-- start right coach -->
+                <div class="col-lg-8 px-4 px-sm-0 col-12 mb-5 p-0 m-0">
+                  <blockquote class="col-12">
+                    <q class="text-primary display-1 fw-bolder"
+                      ><h3 class="text-dark h3">
+                        Everyone wants to be on a winning team, but no one wants
+                        to come to practice. One more thing you should always
+                        remember is that you don't play against opponents, you
+                        play against the game of basketball.
+                      </h3></q
+                    >
+                  </blockquote>
+                  <div class="col-12 p-0 m-0">
+                    <span class="d-block col-12 text-dark fw-bold"
+                      >head coach</span
+                    >
+                    <h2
+                      class="h1 text-uppercase display-2 fw-bolder color-red-700"
+                    >
+                      mike knight
+                    </h2>
+                  </div>
+                  <p class="col-12 mt-5">
+                    There is no doubt that Mike Knight is one of the greatest
+                    basketball coaches of all times. In spite of his bad temper,
+                    which is usually more publicized than his coaching, he has a
+                    phenomenal basketball mind.
+                  </p>
+                </div>
+                <!-- end right coach -->
+
+                <!-- start left coach -->
+                <figure class="col-lg-4 col-12 p-0 m-0 d-flex align-items-end">
+                  <img
+                    class="mx-auto mx-lg-0"
+                    src="assets/images/headcoach.png"
+                    alt=""
+                  />
+                </figure>
+                <!-- end left coach -->
+              </div>
+            </div>
+          </div>
+          <!-- end start coach -->
+          <!-- start bascketball movie  -->
+          <div id="bascketball_movie">
+            <div class="row text-center">
+              <div class="col-12 text-center d-flex justify-content-center">
+                <a href="#">
+                  <span class="bi bi-play-fill"></span>
+                </a>
+              </div>
+              <h2 class="display-5 my-5 h1 text-white fw-bolder">
+                BASKETBALL IS A GAME ABOUT FEELINGS AND INTELLIGENCE
+              </h2>
+              <p class="text-white h5">
+                The game will teach you how hard you have to work to achieve your goals.
+
+
+              </p>
+            </div>
+          </div>
+          <!-- end bascketball movie  -->
+          <!-- start thunder team -->
+          <div id="thunder_team">
+           <div class="container">
+            <div class="row">
+              <!-- top thunder -->
+              <div class="col-12 text-center">
+                <h2 class="text-uppercase h1 fw-bolder">THUNDER TEAM</h2>
+                <span class="underline mt-5"></span>
+              </div>
+              <!--  end top thunder -->
+              <!-- start foot thunder -->
+                <div class="col-12 mt-5 pt-4" id="thunder_foot">
+                  <div class="row justify-content-center">
+                    <div class="thunder_box mt-5 col-12 mt-xl-0 col-md-6 col-xl-4 text-center">
+                      <div class="row align-items-start">
+                          <figure class="col-12">
+                            <img src="assets/images/team-img01.jpg">
+                            <figcaption class="col-12">
+                              <span class="text-uppercase h3 col-12">JAMES MCKINLEY</span>
+                              <span class="col-12">Center</span>
+                            </figcaption>
+                          </figure>
+                           <!-- start social -->
+                        <div class="col-12 ">
+                          <div class="row justify-content-center">
+                            <i class="col-2 h4 color-red-700 mx-1  bi bi-facebook"></i>
+                            <i class="col-2 h4 color-red-700 mx-1  bi bi-twitter"></i>
+                            <i
+                              class="col-2 h4 color-red-700 mx-1  bi bi-instagram"
+                            ></i>
+                          </div>
+                        </div>
+                        <!-- end social -->
+                      </div>
+                      
+                    </div>
+
+                    <div class="thunder_box mt-5 col-12 mt-xl-0 col-md-6 col-xl-4 text-center  ">
+                      <div class="row align-items-start">
+                          <figure class="col-12">
+                            <img src="assets/images/team-img02.jpg">
+                            <figcaption class="col-12">
+                              <span class="text-uppercase h3 col-12">DAVID JOHNSON</span>
+                              <span class="col-12">
+                                Shooting guard
+                                </span>
+                            </figcaption>
+                          </figure>
+                           <!-- start social -->
+                        <div class="col-12 ">
+                          <div class="row justify-content-center">
+                            <i class="col-2 h4 color-red-700 mx-1  bi bi-facebook"></i>
+                            <i class="col-2 h4 color-red-700 mx-1  bi bi-twitter"></i>
+                            <i
+                              class="col-2 h4 color-red-700 mx-1  bi bi-instagram"
+                            ></i>
+                          </div>
+                        </div>
+                        <!-- end social -->
+                      </div>
+                      
+                    </div>
+
+                    <div class="thunder_box mt-5 col-12 mt-xl-0 col-md-6 col-xl-4 text-center ">
+                      <div class="row align-items-start">
+                          <figure class="col-12">
+                            <img src="assets/images/team-img03.jpg">
+                            <figcaption class="col-12">
+                              <span class="text-uppercase h3 col-12">JAMAL SMITH
+                              </span>
+                              <span class="col-12">
+                                Small forward
+                                </span>
+                            </figcaption>
+                          </figure>
+                           <!-- start social -->
+                        <div class="col-12 ">
+                          <div class="row justify-content-center">
+                            <i class="col-2 h4 color-red-700 mx-1  bi bi-facebook"></i>
+                            <i class="col-2 h4 color-red-700 mx-1  bi bi-twitter"></i>
+                            <i
+                              class="col-2 h4 color-red-700 mx-1  bi bi-instagram"
+                            ></i>
+                          </div>
+                        </div>
+                        <!-- end social -->
+                      </div>
+                      
+                    </div>
+
+
+                    <div class="thunder_box mt-5 col-12 col-md-6 mx-xl-3 col-xl-4 text-center ">
+                      <div class="row align-items-start">
+                          <figure class="col-12">
+                            <img src="assets/images/team-img04.jpg">
+                            <figcaption class="col-12">
+                              <span class="text-uppercase h3 col-12">MIKE DONAVAN
+                              </span>
+                              <span class="col-12">
+                                Power forward
+                                </span>
+                            </figcaption>
+                          </figure>
+                           <!-- start social -->
+                        <div class="col-12 ">
+                          <div class="row justify-content-center">
+                            <i class="col-2 h4 color-red-700 mx-1  bi bi-facebook"></i>
+                            <i class="col-2 h4 color-red-700 mx-1  bi bi-twitter"></i>
+                            <i
+                              class="col-2 h4 color-red-700 mx-1  bi bi-instagram"
+                            ></i>
+                          </div>
+                        </div>
+                        <!-- end social -->
+                      </div>
+                      
+                    </div>
+
+                    <div class="thunder_box mt-5 col-12 col-md-6 mx-xl-3 col-xl-4 text-center ">
+                      <div class="row align-items-start">
+                          <figure class="col-12">
+                            <img src="assets/images/team-img05.jpg">
+                            <figcaption class="col-12">
+                              <span class="text-uppercase h3 col-12">KIM BAKER
+
+                              </span>
+                              <span class="col-12">
+                                Point guard
+
+                                </span>
+                            </figcaption>
+                          </figure>
+                           <!-- start social -->
+                        <div class="col-12 ">
+                          <div class="row justify-content-center">
+                            <i class="col-2 h4 color-red-700 mx-1  bi bi-facebook"></i>
+                            <i class="col-2 h4 color-red-700 mx-1  bi bi-twitter"></i>
+                            <i
+                              class="col-2 h4 color-red-700 mx-1  bi bi-instagram"
+                            ></i>
+                          </div>
+                        </div>
+                        <!-- end social -->
+                      </div>
+                      
+                    </div>
+
+
+                  </div>
+                </div>
+              <!-- end foot thunder -->
+            </div>
+           </div>
+          </div>
+          <!-- end thunder team -->
+          <!-- start gallary -->
+            <div id="gallary" class="col-12 p-0 m-0 ">
+                <div class="row m-0 p-0">
+                  <figure class="col-4 p-0 m-0">
+                    <img class="col-12" src="assets/images/gallery-img01.jpg">
+                  </figure>
+                  <figure class="col-8 p-0 m-0">
+                    <img class="col-12" src="assets/images/gallery-img02.jpg">
+                  </figure>
+
+                  <figure class="col-4 p-0 m-0">
+                    <img class="col-12" src="assets/images/gallery-img03.jpg">
+                  </figure>
+                  <figure class="col-8 p-0 m-0">
+                    <img class="col-12" src="assets/images/gallery-img04.jpg">
+                  </figure>
+
+                  <figure class="col-7 p-0 m-0">
+                    <img class="col-12" src="assets/images/gallery-img05-bg.jpg">
+                  </figure>
+                  <figure class="col-5 p-0 m-0">
+                    <img class="col-12" src="assets/images/gallery-img06 - Copy.jpg">
+                  </figure>
+                  
+                </div>
+            </div>
+          <!-- end gallary -->
+          <!-- start latest news -->
+          <div id="latest_news">
+            <!-- start top latest news -->
+            <div class="col-12 text-center">
+              <h2 class="text-uppercase fw-bolder text-black h1 display-5">latest news</h2>
+              <span class="underline mt-5"></span>
+            </div>
+            <!-- end top latest news -->
+            <!-- start foot latest news -->
+            <div class="container-lg px-0 mt-5 pt-3 mx-auto">
+              <div class="row justify-content-center flex-wrap">
+
+                  <div class="box_latest_news  text-capitalize col-10 px-0  px-sm-0  mx-md-0 mx-auto col-sm-7   col-md-5 col-xl-4 mx-xl-0 px-xl-3    mt-5 mt-lg-0">
+                    <figure class="col-12">
+                      <img class="col-12" src="assets/images/news1.jpg">
+                    </figure>
+                    <span class="col-12 m-2 color-red-700 fw-bold">08 Mar 2017</span>
+                    <h2 class="fw-bolder my-3"><a href="#" class="text-black ">THE BEST ZONE PLAY EVER AND HOW TO DISGUISE IT</a></h2>
+                    <p>
+                      This is an extremely effective double screening action that gets you layups and wide open three-point shots.
+                    </p>
+                  </div>
+
+
+                  <div class="box_latest_news  mx-xl-0 px-xl-3 text-capitalize col-10 px-0  px-sm-0  mx-md-0 mx-auto col-sm-7 ms-md-3  col-md-5  px-lg-1 col-xl-4  mt-5 mt-lg-0">
+                    <figure class="col-12">
+                      <img class="col-12" src="assets/images/news2.jpg">
+                    </figure>
+                    <span class="col-12 m-2 color-red-700 fw-bold">08 Mar 2017
+                    </span>
+                    <h2 class="fw-bolder my-3"><a href="#" class="text-black ">WAY TO PRACTICE FREE THROWS AND ADD PRESSURE</a></h2>
+                    <p>
+                      It's nearly impossible to simulate an actual free throw that occurs during games. However, here is a way to apply additional pressure.
+                    </p>
+                  </div>
+
+                  <div class="box_latest_news  mx-xl-0 px-xl-3 text-capitalize col-10 px-0  px-sm-0  mx-md-0 mx-auto col-sm-7 col-md-6 col-lg-6  mt-lg-5 mt-xl-0 col-xl-4   mt-5">
+                    <figure class="col-12">
+                      <img class="col-12" src="assets/images/news3.jpg">
+                    </figure>
+                    <span class="col-12 m-2 color-red-700 fw-bold">08 Mar 2017
+                    </span>
+                    <h2 class="fw-bolder my-3"><a href="#" class="text-black ">CAT & MOUSE DRILL FOR BALL HANDLING & DEFENSE</a></h2>
+                    <p>
+                      This drill is great for warming up and improving your dribbling skills. You can use it at the beginning of a workout or practice.
+                    </p>
+                  </div>
+
+
+
+                </div>
+              </div>
+            <!-- end foot latest news -->
+          </div>
+          <!-- end latest news -->
+          <!-- start our sponsered -->
+          <div id="our_sponsered">
+            <h2 class="text-uppercase fw-bolder text-white h1 text-center">our sponsered</h2>
+            <div class="row">
+              <figure class="col-10 mx-auto col-sm-8  text-center text-md-start mx-md-0 mt-5 col-md-6 col-lg">
+                <img class="col-10" src="assets/images/sponsors-img01.png">
+              </figure>
+              <figure class="col-10 mx-auto col-sm-8  text-center text-md-start mx-md-0 mt-5 col-md-6 col-lg">
+                <img class="col-10" src="assets/images/sponsors-img02.png">
+              </figure>
+              <figure class="col-10 mx-auto col-sm-8  text-center text-md-start mx-md-0 mt-5 col-md-6 col-lg">
+                <img class="col-10" src="assets/images/sponsors-img03.png">
+              </figure>
+              <figure class="col-10 mx-auto col-sm-8  text-center text-md-start mx-md-0 mt-5 col-md-6 col-lg">
+                <img class="col-10" src="assets/images/sponsors-img04.png">
+              </figure>
+              <figure class="col-10 mx-auto col-sm-8  text-center text-md-start mx-md-0 mt-5 col-md-6 col-lg">
+                <img class="col-10" src="assets/images/sponsors-img05.png">
+              </figure>
+
+            </div>
+          </div>
+          <!-- end our sponsered -->
+          <!-- start contact us -->
+          <div id="contact_us">
+            <div class="row justify-content-center justify-content-lg-around col-lg-12 mx-auto">
+              <!-- start left contact -->
+              <figure class="col-10  col-lg-6 col-xl-6 col-xxl-5">
+                <img class="col-12" src="assets/images/content-bg12.png">
+              </figure>
+              <!-- end left contact -->
+              <!-- start right contact -->
+              <div class="col-10 mt-5 mt-lg-0 col-lg-6 col-xl-5 ">
+                <h2 class="text-uppercase h1 fw-bolder col-12">CONTACT US TO ORDER FAN PRODUCTS</h2>
+                <form>
+                  <input type="text" class="col-12 py-3 my-3 border border-2 rounded-1 px-2 py-3 border-black" placeholder="name*">
+                  <input type="email" class="col-12 py-3 my-3 border border-2 rounded-1 px-2 py-3 border-black" placeholder="email*">
+                  <textarea class="my-3 col-12 border border-2 rounded-1 px-2 py-3 border-black" style="resize: none;" cols="30" rows="10" placeholder="message*"></textarea>
+                  <button class="d-block col-12 bg-red-700 text-white text-capitalize py-3 px-5 rounded-1 border-0">send</button>
+                </form>
+              </div>
+              <!-- end right contact -->
+
+            </div>
+          </div>
+          <!-- end contact us -->
+          <footer id="footer">
+              <div class="container-xl p-0 m-0">
+                <div class="row justify-content-between justify-content-lg-start">
+                  
+                    <div class="col-12 mb-5 mb-lg-0 col-md-7 col-lg-4 mb-5">
+                      <figure class="col-12">
+                        <img class="col-7 col-md-5 mb-3" src="assets/images/footer-logo.png" alt="">
+                      </figure>
+                      <p class="text-white my-3">
+                        Thunder Basketball Club is for players of all shapes, sizes, and standard, providing every member opportunities to learn and develop.
+                      </p>
+                         <!-- start social -->
+                         <div class="col-7 mt-3">
+                          <div class="row">
+                            <i class="col-2 mx-1 text-white bi bi-facebook"></i>
+                            <i class="col-2 mx-1 text-white bi bi-twitter"></i>
+                            <i
+                              class="col-2 mx-1 text-white bi bi-instagram"
+                            ></i>
+                          </div>
+                        </div>
+                        <!-- end social -->
+                    </div>
+                  
+                  <!-- end foot left -->
+                  <!-- start menu foot -->
+                    <ul class="col-12 col-md-2 mb-5 mb-lg-0 mt-3 text-capitalize text-white my-2">
+                      <li class="col-12 my-1"><a class="text-white" href="#">home</a></li>
+                      <li class="col-12 my-1"><a class="text-white" href="#">about club</a></li>
+                      <li class="col-12 my-1"><a class="text-white" href="#">team</a></li>
+                      <li class="col-12 my-1"><a class="text-white" href="#">gallary</a></li>
+                      <li class="col-12 my-1"><a class="text-white" href="#">leaga team</a></li>
+                      <li class="col-12 my-1"><a class="text-white" href="#">contact</a></li>
+                    </ul>
+                  <!-- end menu foot -->
+                  <!-- start contact us -->
+                  <div class="col-12 col-md-6 col-lg-3 mt-5 my-md-0  col-xl-3 my-5 my-md-0">
+                    <h2 class="col-12 text-white">CONTACT US</h2>
+                    <div class="col-12 text-white">
+                      <div class="row  my-4 align-items-center">
+                        <span class="bi bi-geo-fill col-2 text-primary h3"></span>
+                        <span class="col-10 h5">ایران تهران </span>
+                      </div>
+                      <div class="row  my-4align-items-center">
+                        <span class="bi bi-clock-fill col-2 text-primary h3"></span>
+                        <span class="h5 col-10">Mon - Sat 8.00 - 18.00</span>
+                      </div>
+                      <div class="row my-4 align-items-center">
+                        <span class="bi bi-phone-fill col-2 text-primary h3"></span>
+                        <span class="h5 col-10">0991 238 9225</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end contact us -->
+                  <!-- start sign in -->
+                  <div class="col-12 col-md-6 col-lg-3 mt-1 col-xl-3">
+                    <h3 class="text-white mb-5">SIGN UP FOR UPDATES</h3>
+                    <input type="text" class="col-12 py-3 border-0 px-3 rounded" placeholder="email...">
+                    <a href="#" class="mt-4 d-flex justify-content-center  align-items-center col-12 text-white bg-red-700 py-3 rounded">send</a>
+                  </div>
+                  <!-- end sign in -->
+                  
+                </div>
+               
+              </div>
+              
+          </footer>
+           <!-- name -->
+           <div class="col-12 bg-red-700 py-5 d-flex justify-content-center align-items-center">
+            <h2 class="text-white  text-center">seyed mohsen azimi</h2>
+           </div>
+           <!-- name -->
+        </div>
+      </div>
+    </main>
+
+    <!-- add javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- end add javascript -->
+  </body>
+</html>

@@ -1,0 +1,230 @@
+a {
+  text-decoration: none;
+}
+
+* {
+  font-family: "Noto Sans", sans-serif !important;
+}
+
+li {
+  list-style-type: none;
+}
+
+.bg-red-700 {
+  background-color: rgb(187, 25, 25);
+}
+
+.color-red-700 {
+  color: rgb(221, 28, 28);
+}
+
+#main {
+  overflow: hidden;
+}
+#main #main_header {
+  height: auto;
+  padding-bottom: 200px;
+  background-image: url(../images/baxkground.jpg);
+  width: 100%;
+  background-size: cover !important;
+  background-position: -70% top;
+}
+@media screen and (min-width: 576px) {
+  #main #main_header {
+    background-position: -100% top;
+  }
+}
+@media screen and (min-width: 768px) {
+  #main #main_header {
+    background-position: -140% top;
+    padding-bottom: 300px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #main #main_header {
+    background-position: 50% top;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #main #main_header {
+    background-position: 0% top;
+    padding-bottom: 300px;
+  }
+}
+#main #main_header #top_header_mobile_nav > li {
+  transition: all 0.5s;
+  text-align: left !important;
+}
+#main #main_header #top_header_mobile_nav > li:hover {
+  background-color: white;
+}
+#main #main_header #top_header_mobile_nav > li:hover > a {
+  color: black !important;
+}
+#main #main_header #menu_descktop {
+  white-space: nowrap;
+  margin-top: 20px !important;
+}
+#main #main_header #menu_descktop > li > a {
+  transition: all 0.5s;
+  padding-bottom: 10px;
+}
+#main #main_header #menu_descktop > li > a:hover {
+  border-bottom: 3px solid rgb(204, 24, 24);
+  width: -moz-max-content;
+  width: max-content;
+  color: rgba(255, 255, 255, 0.664) !important;
+}
+#main #main_header h4 {
+  line-height: 30px;
+}
+#main #subscribe {
+  width: 100%;
+  height: 40vh;
+  background-image: url(../images/subscribe.jpg);
+  position: relative;
+}
+#main #subscribe::after {
+  content: "";
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(20, 20, 224, 0.747);
+}
+#main #subscribe h2 {
+  line-height: 50px;
+}
+@media screen and (min-width: 768px) {
+  #main #subscribe h2 {
+    font-size: 21px !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  #main #subscribe h2 {
+    font-size: 31px !important;
+  }
+}
+#main #subscribe a {
+  transition: all 0.5s;
+}
+#main #subscribe a:hover {
+  background-color: white !important;
+  color: blue !important;
+  font-weight: 800;
+}
+#main #last_macth {
+  width: 100%;
+  height: auto;
+  padding-bottom: 150px;
+  background-image: url(../images/match-result-bg.png);
+  background-color: white;
+  background-size: cover;
+  background-position: 28% 0%;
+}
+#main #last_macth > .row > div:nth-of-type(1) > span:nth-of-type(1) {
+  width: 100px;
+  height: 10px;
+  background-color: rgb(192, 14, 14);
+  display: block;
+}
+@media screen and (max-width: 576px) {
+  #main #last_macth {
+    background-image: none;
+  }
+}
+@media screen and (min-width: 576px) {
+  #main #last_macth {
+    background-image: none;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #main #last_macth {
+    background-image: url(../images/match-result-bg.png);
+  }
+}
+#main #macth-point {
+  font-weight: 900 !important;
+  color: black !important;
+}
+#main #next_match {
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  background-image: url(../images/nextmacthbg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 200%;
+}
+#main #coach {
+  padding: 100px 0 0 0;
+  background-color: white;
+  width: 100%;
+}
+#main #coach > div > div > div > blockquote > q > h3 {
+  line-height: 50px;
+  font-weight: normal;
+}
+#main #bascketball_movie {
+  width: 100%;
+  background-image: url(../images/vidoebg.jpg);
+  padding: 100px 0;
+  background-attachment: fixed;
+}
+#main #bascketball_movie > div > div:nth-of-type(1) > a {
+  width: 100px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(221, 28, 28);
+  color: white;
+  font-size: 50px;
+  padding: 60px;
+  border-radius: 100%;
+  border: 3px solid white;
+}
+#main #thunder_team {
+  width: 100%;
+  padding: 100px 0;
+  background-color: white;
+}
+#main #thunder_team .thunder_box > div > figure > figcaption {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  -webkit-clip-path: polygon(0% 0%, 9% 93%, 86% 94%, 100% 0%);
+          clip-path: polygon(0% 0%, 9% 93%, 86% 94%, 100% 0%);
+  color: white;
+  background-color: #380ebf;
+}
+#main .underline {
+  width: 100px;
+  height: 10px;
+  background-color: rgb(221, 28, 28);
+  display: block;
+  margin-top: 30px;
+  margin: auto;
+}
+#main #latest_news {
+  padding: 100px 0;
+  width: 100%;
+  background-color: white;
+}
+#main #our_sponsered {
+  background-image: url(../images/content-bg05.jpg);
+  width: 100%;
+  padding: 100px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#main #contact_us {
+  width: 100%;
+  padding: 100px 0;
+}
+#main #footer {
+  width: 100%;
+  padding: 100px;
+  background-image: url(../images/content-bg06.jpg);
+}/*# sourceMappingURL=master.css.map */
